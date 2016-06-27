@@ -1,0 +1,135 @@
+<div class="m-home">
+        <header>
+            <ul>
+                <li>一品尚都</li>
+              <li class="yo-ico">&#xe601;</li>
+            </ul>
+        </header>
+        <section spa-widget="scroll">
+        <div class="">
+            <!--轮播-->
+            <div class="swiper-container" id="home-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/shop/images/banner1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/shop/images/banner1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/shop/images/banner1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/shop/images/banner1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/shop/images/banner1.png" />
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- 小图标 -->
+              <div class="nav1">
+                <div class="navList">
+                  <i class="yo-ico" style="color:#82b8d4">&#xe64e;</i>
+                  <b>物业通知</b>
+                </div>
+                <div class="navList">
+                  <i class="yo-ico" style="color:#f5a56a">&#xe6e4;</i>
+                  <b>业主留言</b>
+                </div>
+                <div class="navList" style="color:#86bddb">
+                  <i class="yo-ico">&#xe629;</i>
+                  <b>兴趣部落</b>
+                </div>
+                <div class="navList" style="color:#596a7e">
+                  <i class="yo-ico">&#xe6bd;</i>
+                  <b>实用查询</b>
+                </div>
+              </div>
+
+              <div class="nav2">
+                <div class="navList" style="color:#80c3b1">
+                  <i class="yo-ico">&#xe6bf;</i>
+                  <b>美食</b>
+                </div>
+                <div class="navList" style="color:#86bcd6">
+                  <i class="yo-ico">&#xe655;</i>
+                  <b>生活商圈</b>
+                </div>
+                <div class="navList" style="color:#e6686b">
+                  <i class="yo-ico">&#xe62f;</i>
+                  <b>女性专区</b>
+                </div>
+                <div class="navList" style="color:#8abdda">
+                  <i class="yo-ico">&#xe709;</i>
+                  <b>装修建材</b>
+                </div>
+              </div>
+
+
+              <div class="nav3">
+                <div class="navList" style="color:#f6a36d">
+                  <i class="yo-ico">&#xe68a;</i>
+                  <b>母婴</b>
+                </div>
+                <div class="navList" style="color:#e66967">
+                  <i class="yo-ico">&#xe64d;</i>
+                  <b>社区商城</b>
+                </div>
+                <div class="navList" style="color:#636d86">
+                  <i class="yo-ico">&#xe655;</i>
+                  <b>金融</b>
+                </div>
+                <div class="navList" style="color:#e6be78">
+                  <i class="yo-ico">&#xe622;</i>
+                  <b>招商加盟</b>
+                </div>
+              </div>
+            <div class="pic">
+                <img src="/shop/images/picture.png" />
+            </div>
+            <!--爱生活-->
+            <div class="loveLife">
+                <i>爱生活</i>
+            </div>
+            <ul>
+              <li>
+                <img src="/shop/images/img1.jpg" />
+                <b>超柔加厚丝毛地毯</b>
+              </li>
+              <li></li>
+              <li>
+                <img src="/shop/images/img2.jpg" />
+                <b>日式多用淘米篮</b>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="/shop/images/img3.jpg" />
+                <b>超柔加厚丝毛地毯</b>
+              </li>
+              <li></li>
+              <li>
+                <img src="/shop/images/img4.jpg" />
+                <b>日式多用淘米篮</b>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <img src="/shop/images/img1.jpg" />
+                <b>超柔加厚丝毛地毯</b>
+              </li>
+              <li></li>
+              <li>
+                <img src="/shop/images/img2.jpg" />
+                <b>日式多用淘米篮</b>
+              </li>
+            </ul>
+
+
+        </div>
+        </section>
+    </div>

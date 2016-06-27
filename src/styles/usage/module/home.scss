@@ -1,0 +1,128 @@
+  .m-index {
+    .l-container {
+        .m-home {
+            @include flexbox();
+            @include flex-direction(column);
+            height: 100%;
+            >* {
+                width: 100%;
+            }
+            header {
+                height: 0.36rem;
+                background: #373737;
+                ul {
+                    @include flexbox();
+                    height: 100%;
+                    li {
+                        height: 100%;
+                        &:first-child {
+                            @include flex(1);
+                            text-align: center;
+                            color: #f6f6f6;
+                            line-height: 0.36rem;
+                            font-size: 0.2rem;
+                            font-weight: bold;
+                        }
+                        &:last-child {
+                            width: 0.36rem;
+                            text-align: center;
+                            color: #fff;
+                            font-size: 0.2rem;
+                        }
+                    }
+                }
+            }
+            section {
+                @include flex(1); //表示其他
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                //swiper轮播
+                .swiper-container {
+                    width: 100%;
+                    .swiper-wrapper {
+                        height: 100%;
+                        width: 100%;
+                        .swiper-slide {
+                            height: 100%;
+                            width: 100%;
+                            img {
+                                width: 100%;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                .pic{
+                    width: 100%;
+                    height: .73rem;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .nav1,
+                .nav2,
+                .nav3 {
+                    background: #fefefe;
+                    @include flexbox();
+                    .navList {
+                        @include flex(1);
+                        @include flexbox();
+                        @include flex-direction(column);
+                        @include align-items(center);
+                        padding: .06rem;
+                        i,b {
+                            display: block;
+                        }
+                        i {
+                            font-size: 0.46rem;
+                        }
+                        b {
+                            color: #767676;
+                            font-size: 0.14rem;
+                        }
+                    }
+                }
+                .loveLife{
+                    width: 100%;
+                    height: .3rem;
+                    background: #f4f2f5;
+                    i{
+                        display: block;
+                        font-size: .18rem;
+                        color: #f5bc92;
+                        text-align: center;
+                        line-height: .3rem;
+                        font-weight: bold;
+                    }
+                }
+                ul{
+                  margin-top: .05rem;
+                  width: 100%;
+                  @include flexbox();
+                  li{
+                    &:not(:nth-child(2)){
+                      @include flex(1);
+                      @include box-sizing(border-box);
+                      @include border(1px,#d9d9d9);
+                      img{
+                        display: block;
+                        width: 100%;
+                      }
+                      b{
+                        @include border(1px 0 0 0,#d9d9d9);
+                        display: block;
+                        font-weight: normal;
+                        padding: .08rem .05rem;
+                      }
+                    }
+                    &:nth-child(2){
+                      width: .05rem;
+                    }
+                  }
+                }
+            }
+        }
+    }
+}

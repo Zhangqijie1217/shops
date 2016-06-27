@@ -1,0 +1,27 @@
+<div class="m-index">
+  <div class="l-container"></div>
+    <footer>
+      <ul>
+        <li class="active" action-type="switch.tabs" data-tag="home">
+          <i class="yo-ico">&#xe630;</i>
+          <b>首页</b>
+        </li>
+        <li action-type="switch.tabs" data-tag="search">
+          <i class="yo-ico">&#xe629;</i>
+          <b>周边服务</b>
+        </li>
+        <li action-type="switch.tabs" data-tag="my">
+          <i class="yo-ico">&#xe63a;</i>
+          <b>我的钱袋</b>
+        </li>
+        <li action-type="switch.tabs" data-tag="about">
+          <i class="yo-ico">&#xe614;</i>
+          <b>联系我们</b>
+        </li>
+        <li action-type="switch.tabs" data-tag="person">
+          <i class="yo-ico">&#xe665;</i>
+          <b>用户中心</b>
+        </li>
+      </ul>
+    </footer>
+</div>
